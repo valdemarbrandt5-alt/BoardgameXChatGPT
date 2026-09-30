@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ae4b380ad8c754c8696fdf1250db4f, type: 3}
+  m_Name: ShotgunBehavior
+  m_EditorClassIdentifier: Assembly-CSharp::ShotgunItemBehaviour
+  shotgunWeaponPrefab: {fileID: 1347285366852233741, guid: 7aa09edd9a9a13b4aa0363844aee5c42, type: 3}
+  linePrefab: {fileID: 6176193370569000344, guid: c4375d05e35a57c4fab5297b71f8a262, type: 3}
+  targetIndicatorPrefab: {fileID: 0}
+  muzzleFlashPrefab: {fileID: 0}
+  hitRange: 5
+  indicatorRange: 2
+  aimRotateSpeed: 140
+  lineHeightOffset: 1
+  targetIndicatorHeightOffset: 0.05
+  hitWidth: 0.75
+  minDamage: 5
+  maxDamage: 40
+  shotDelay: 0.08
+  postShotDelay: 0.35
+  shakeDuration: 0.15
+  shakeStrength: 0.18
+  cameraFollowTowardAim: 0.25

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca6667cfde799c4b8d992fed4a90e54, type: 3}
+  m_Name: Rocket_Item
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemId: rocket
+  displayName: Rocket
+  icon: {fileID: 0}
+  rarity: 2
+  useType: 0
+  consumesTurn: 0
+  worldPrefab: {fileID: 2167436705864418721, guid: 7aed5ccbc67e2df4e94757844d765940, type: 3}
+  behaviour: {fileID: 11400000, guid: bf1d0d0ece344bb42b6a95ed4c051251, type: 2}

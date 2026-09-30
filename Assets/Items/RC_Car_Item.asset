@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca6667cfde799c4b8d992fed4a90e54, type: 3}
+  m_Name: RC_Car_Item
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemId: rc_car
+  displayName: RC Car
+  icon: {fileID: 0}
+  rarity: 1
+  useType: 2
+  consumesTurn: 0
+  worldPrefab: {fileID: 3941100378848117205, guid: 8f37afdc787d19e449a5abcd01aeb528, type: 3}
+  behaviour: {fileID: 11400000, guid: 01c89ede1cb79c44ea8c73685a7c8ff2, type: 2}
